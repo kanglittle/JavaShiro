@@ -26,7 +26,9 @@
     <druid.version>1.1.20</druid.version>
     <!--spring-boot版本-->
     <spring.boot.version>2.1.6.RELEASE</spring.boot.version>
-    <!--系统版本-->
+    <!--系统版本-->'
+
+
     <itheima.version>1.0-SNAPSHOT</itheima.version>
     <!--dubbo版本-->
     <dubbo.version>2.7.3</dubbo.version>
