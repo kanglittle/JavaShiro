@@ -1,5 +1,6 @@
 package com.itheima.shiro;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.config.IniSecurityManagerFactory;
@@ -11,6 +12,7 @@ import org.junit.Test;
 /**
  * @Description：shiro的第一个例子
  */
+@Slf4j
 public class HelloShiro {
 
     @Test
@@ -29,6 +31,7 @@ public class HelloShiro {
         subject.login(usernamePasswordToken);
         //打印登录信息
         System.out.println("登录结果:"+subject.isAuthenticated());
+        log.info("aaaaa");
     }
 
 }
